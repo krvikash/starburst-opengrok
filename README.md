@@ -15,7 +15,7 @@ OpenGrok is a fast and usable source code search and cross reference engine. It 
 
 1. Install all pre-requisites file. Execute ```install-opengrok.sh``` script 
 
-| Arguments.                   | Default Value |
+| Arguments                    | Default Value |
 | ---------------------------- | ------------- |
 | 1 (Cleanup Workspace)        | False         |
 | 2 (Uninstall tomcat)         | False         |
