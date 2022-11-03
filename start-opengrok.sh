@@ -11,7 +11,7 @@ cp $OPENGROK_WORKSPACE/dist/lib/source.war $TOMCAT_HOME/libexec/webapps/
 # Start the tomcat server now
 $TOMCAT_HOME/bin/catalina start
 
-echo "Sleeping 10 seconds to tomcat server start"
+echo "Sleeping 10 seconds to let tomcat server start"
 sleep 10
 echo "Waking up"
 
