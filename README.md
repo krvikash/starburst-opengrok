@@ -39,6 +39,8 @@ sh stop-opengrok.sh
 4. Add more repo in the $OPENGROK_WORKSPACE/src locationa and re-index the source code by running below command. Tomcat server will automatically pick up the latest code after reindex.
 
 ```
+export OPENGROK_WORKSPACE=~/opengrok
+
 java -Djava.util.logging.config.file=$OPENGROK_WORKSPACE/etc/logging.properties -jar \
      $OPENGROK_WORKSPACE/dist/lib/opengrok.jar \ 
      -c /opt/homebrew/bin/ctags \
